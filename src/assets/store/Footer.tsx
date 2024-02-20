@@ -7,11 +7,17 @@ export const Footer = () => {
   const reset = useQuestionsStore((state) => state.reset);
 
   return (
-    <footer style={{ marginTop: "16px" }}>
-      <strong>{`✅ ${correct} correctas - ❌ ${incorrect} incorrectas - ❓ ${unanswered} sin respuesta`}</strong>
-      <div style={{ marginTop: "30px" }}>
+    <footer style={{ marginTop: "7px", textAlign: "center" }}>
+      <div
+        style={{ fontSize: "14px" }}
+      >{`✅ ${correct} correctas - ❌ ${incorrect} incorrectas - ❓ ${unanswered} sin respuesta`}</div>
+      <div style={{ marginTop: "17px" }}>
         <Button
-          style={{ backgroundColor: "yellow", color: "black" }}
+          style={{
+            backgroundColor: "yellow",
+            color: "black",
+            alignContent: "center",
+          }}
           onClick={() => reset()}
         >
           Reiniciar Quizz
@@ -20,5 +26,3 @@ export const Footer = () => {
     </footer>
   );
 };
-
-

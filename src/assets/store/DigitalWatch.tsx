@@ -21,12 +21,12 @@ const DigitalWatch: React.FC = () => {
   return (
     <div
       style={{
-        fontSize: "36px",
-        padding: "20px",
-        width: "550px",
+        fontSize: "13px",
+        padding: "5px",
+        width: "350px",
         textAlign: "center",
         fontFamily: "Roboto",
-        letterSpacing: "10px",
+        letterSpacing: "7px",
       }}
     >
       <div>{formatTime(time)}</div>

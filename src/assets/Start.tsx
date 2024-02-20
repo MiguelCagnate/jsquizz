@@ -7,13 +7,26 @@ const Start = () => {
     fetchQuestions(5);
   };
   return (
-    <Button
-      sx={{ marginTop: "24px", color: "yellow", backgroundColor: "black" }}
-      onClick={handledClick}
-      variant="contained"
+    <div
+      style={{
+        textAlign: "center",
+        width: "300px",
+      }}
     >
-      Empezar!
-    </Button>
+      <Button
+        sx={{
+          marginTop: "10px",
+          color: "yellow",
+          backgroundColor: "black",
+          textAlign: "center",
+          alignItems: "center",
+        }}
+        onClick={handledClick}
+        variant="contained"
+      >
+        Empezar!
+      </Button>
+    </div>
   );
 };
 
