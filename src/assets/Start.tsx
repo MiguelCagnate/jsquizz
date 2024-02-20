@@ -7,19 +7,19 @@ const Start = () => {
     fetchQuestions(5);
   };
   return (
-    <div
-      style={{
-        textAlign: "center",
-        width: "300px",
-      }}
-    >
+    <div>
       <Button
         sx={{
-          marginTop: "10px",
+          marginTop: "2rem",
+          marginLeft: "auto",
+          marginRight: "auto",
+          padding: "5px",
           color: "yellow",
           backgroundColor: "black",
-          textAlign: "center",
-          alignItems: "center",
+          width: "170px",
+          display: "block",
+
+          // Ensures the button takes up full width
         }}
         onClick={handledClick}
         variant="contained"
