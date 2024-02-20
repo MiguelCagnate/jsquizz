@@ -2,6 +2,8 @@
 ---
 
 # Oh Quizz Oh Javascript!
+![javaquizz](https://github.com/MiguelCagnate/jsquizz/assets/94227693/98118e7e-c577-443d-bd25-48ed4756e154)
+
 
 Oh Quizz Oh Javascript! is a JavaScript quiz application built using Zustand and TypeScript. It features random questions to test your JavaScript knowledge.
 
