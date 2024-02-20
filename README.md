@@ -1,4 +1,3 @@
-Based on the provided information, here's a README for your Oh Quizz Oh Javascript project using Zustand and TypeScript:
 
 ---
 
@@ -59,4 +58,3 @@ Zustand is seamlessly integrated into this project to manage the quiz state. It 
 
 ---
 
-Feel free to customize the README further with additional details or formatting according to your preferences. This README provides users with a clear understanding of your project, how to install it, and how to use it effectively.
